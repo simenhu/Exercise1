@@ -1,0 +1,1 @@
+We can se that the result is a random number between positive and negative 1000000. This happens because the gobal variable is accessed by both de incrementing function and the decrementing function without any syncronizing mechanism. The result is a race condition where the result is a random number. 
